@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <div>
+        <label>First Name: *&ensp;&ensp;</label>
+        <input type="text" name="first_name">    
+    </div>
+    <p></p>
+    <div>
+        <label>Last Name: *&ensp;&ensp;</label>
+        <input type="text" name="last_name">    
+    </div>
+    <p></p>
+    <div>
+        <label>Email Address: *&ensp;&ensp;</label>
+        <input type="text" name="email_address">    
+    </div>
+    <p></p>
+    <div>
+        <label>Password: *&ensp;&ensp;</label>
+        <input type="password" name="password">    
+    </div>
+    <p></p>
+    <div>
+        <label>Confirm Password: *&ensp;&ensp;</label>
+        <input type="password" name="confirm_password">    
+    </div>
+    <p></p>
+    <div>
+        <label>Birthday: *&ensp;&ensp;</label>
+        <input type="date" name="dob">    
+    </div>
+    <p></p>
+    <p>Gender Identity:</p>
+    <p></p>
+    <div>
+        <input type="radio" name="male" value="male" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="female" value="female" id="female">
+        <label for="female">Female</label>
+        <input type="radio" name="non-binary" value="non-binary" id="non-binary">
+        <label for="non-binary">Non-binary</label>
+        <input type="radio" name="prefer_not_to_answer" value="prefer_not_to_answer" id="prefer_not_to_answer">
+        <label for="prefer_not_to_answer">I prefer not to answer</label>    
+    </div>
+    <p></p>
+    <p>A short description about myself:</p>
+    <div>
+        <textarea name="description_about_self" cols="30" rows="3"></textarea>
+    </div>
+    <p></p>
+    <div>
+        <label for="coding_language">Favorite Language:&ensp;&ensp;</label>
+        <select name="coding_language">
+            <option>JavaScript</option>
+            <option>Python</option>
+            <option>HTML</option>
+            <option>C++</option>
+        </select>
+    </div>
+    <p></p>
+    <div>
+        <input type="checkbox" name="email_update_checkbox" 
+        id="email_update_checkbox" checked >
+        <label for="email_update_checkbox">Yes, I would like to receive periodic email updates</label>
+    </div>
+    <p></p>
+    <input type="submit" value="Create Account" >
+    <p>* Indicates a required field</p>
+
+</body>
+</html>
