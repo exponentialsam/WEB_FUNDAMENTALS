@@ -1,0 +1,50 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* this whole situation above is called css reset. Use this in all css sheets. Now it will not vary by browser*/
+
+.row{
+    height: 250px;
+    outline: 1px solid black;
+    background-color: coral;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly; /* x axis */
+    align-items: center; /* y axis */
+    margin-bottom: 20px;
+    /* flex-end */
+    /* gap: 10px; */
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    outline: 1px solid black;
+    margin-bottom: 20px;
+    /* display: inline-block; */
+}
+
+#box1{
+    margin-bottom: 0px;
+
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    /* makes all the images all the smae size */
+}
+
+#row1{
+    justify-content: space-between;
+}
+
+#row2{
+    justify-content: space-evenly;
+}

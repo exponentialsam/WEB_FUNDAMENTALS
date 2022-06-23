@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color:#ececec;
+}
+
+/* this whole situation above is called css reset. Use this in all css sheets. Now it will not vary by browser*/
+
+
+h1{
+    padding: 30px;
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #3E4874;
+    text-align: center;
+}
+
+
+
+.row{
+    height: 250px;
+    /* outline: 1px solid black; */
+    /* background-color: #4ec5e4; */
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly; /* x axis */
+    align-items: center; /* y axis */
+    margin: 0px 20px 20px 20px;
+    /* flex-end */
+    /* gap: 10px; */
+
+}
+
+/* .box{ */
+    /* height: 200px; */
+    /* width: 200px; */
+    /* background-color: aqua; */
+    /* outline: 1px solid black; */
+    /* margin-bottom: 20px; */
+    /* display: inline-block;/ */
+/* } */
+
+/* #box1{ */
+    /* margin-bottom: 0px; */
+
+/* } */
+
+img{
+    height: 200px;
+    width: 200px;
+    /* makes all the images all the smae size */
+}
+
+#row0{
+    background-color: #4ec5e4;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#row1{
+    background-color: #c7a6ae;
+    justify-content: space-evenly;
+}
+
+#row2{
+    
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ffffff;
+}
