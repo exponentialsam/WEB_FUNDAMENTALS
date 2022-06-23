@@ -1,0 +1,68 @@
+/* *{ means to select everything */
+
+*{
+    /* border: 1px solid black; */
+}
+body{
+    background-color: aqua;
+    color: gray;
+
+}
+
+h1{
+    text-align:center;
+    color:firebrick;
+    font-size: 40px;
+    background-color:cornflowerblue;
+
+}
+
+h2{
+    text-align:right;
+    text-decoration:line-through;
+    font-style:italic;
+    font-weight:100;
+    font-family:fantasy;
+}
+
+h3{
+    font-family:monospace;
+
+
+
+}
+
+span{
+color:darkkhaki;
+
+}
+
+p{
+    color:indigo;
+    line-height: 25px;
+}
+
+#p2{
+    font-style: italic;
+    color:fuchsia;
+
+}
+
+.unda{
+    text-decoration: underline;
+}
+
+/* class is used for styling multiple elements while id is for more specific items */
+
+ol>li{
+    font-size:28px;
+}
+
+/* target all the li's inside/children of the ordered list */
+
+div>h3{
+    font-style:italic;
+}
+
+/* for the h3's that are direct children of divs. */
+/* div h3 is for any h3 in side a div, even if it is not direct */
