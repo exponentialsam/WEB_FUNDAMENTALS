@@ -5,31 +5,49 @@
     box-sizing: border-box;
 }
 
-/* this whole situation above is called css reset. Use this in all css sheets. Now it will not vary by browser*/
 
-.row{
-    height: 250px;
-    outline: 1px solid black;
-    background-color: coral;
-    display: flex;
-    /* flex-direction: column; */
-    /* justify-content: space-between; */
-    justify-content: center;
-    align-items: center;
-    /* flex-end */
 
-    gap: 10px;
+.container{
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+    padding: 15px;
 }
 
-.box{
-    height: 200px;
+.top-nav {
+    height: 150px;
+    background-color: green;
+    margin-bottom: 15px;
+
+}
+.side-nav {
+    height: 300px;
     width: 200px;
-    background-color: aqua;
-    outline: 1px solid black;
-    /* display: inline-block; */
+    background-color: blue;
+    margin-right: 20px;
 }
+.main {
+    height: 400px;
+    width: 700px;
+    background-color: red;
+    padding: 15px;
 
-#box1{
-    margin-right: 300px;
-
+}
+.sub-content {
+    height: 200px;
+    width: 210px;
+    background-color: yellow;
+}
+#advertisement {
+    height: 120px;
+    width: 660px;
+    background-color: purple;
+    margin-left: 5px;
+}
+.row {
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 25px;
+    /* align-items: flex-start; */
+    /* TODO - what should go here? */
 }
