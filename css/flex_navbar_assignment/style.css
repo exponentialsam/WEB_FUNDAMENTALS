@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    height: 50px;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.nav-title{
+    display:flex;
+}
+
+.nav-links{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    list-style-type: none;
+}
+
+.btn{
+    background-color: #48A1B7;
+    color: white;
+    height: 25px;
+    width: 75px;
+    font-weight:600;
+    box-shadow: 3px 3px black;
+    
+
+}
