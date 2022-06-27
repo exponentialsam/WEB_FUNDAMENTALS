@@ -49,10 +49,10 @@ h1{
     gap: 20px;
 }
 
-#col-left, #col-right{
+/* #col-left, #col-right{ */
     /* outline: 3px solid black; */
     /* height: 300px; */
-}
+/* } */
 
 #col-left{
     flex: 2;
@@ -79,9 +79,9 @@ h1{
     margin-right: 30px;
 }
 
-.puppy-left, .puppy-right{
+/* .puppy-left, .puppy-right{ */
     /* outline: 2px solid purple; */
-}
+/* } */
 
 .puppy-left > img{
     height: 150px;
