@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px 100px;
+}
+
+#header{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+
+}
+
+h2{
+    font-size: 2.1rem;
+    text-align: center;
+    padding: 15px;
+}
+
+#main{
+    display: flex;
+    gap: 20px;
+
+}
+
+#col-left{
+    text-align: center;
+    border: 3px solid black;
+    padding: 20px;
+    flex: 1;
+    height: 220px;
+    /* width: 150px; */
+    /* height: 200px; */
+}
+
+#col-left>img{
+    width: 100px;
+    height: 100px;
+
+}
+
+#col-left>h3{
+    font-size: 1.6rem;
+}
+
+#col-left>p{
+    padding: 10px;
+}
+
+#col-right{
+    flex: 3;
+    /* border: 1px solid black; */
+    /* display: flex; */
+    
+}
+
+.feed-list{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 3px solid black;
+    margin-bottom: 10px;
+    
+}
+
+.feed-top-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.like-section{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.name-section>h4{
+    font-size: 1.4rem;
+}
+
+.like-section>p{
+    font-size: 1.4rem;
+}
+
+.like-section>button{
+    background-color: goldenrod;
+    font-size: 1.2rem;
+    padding: 2px 5px;
+    box-shadow: 3px 3px black;
+}
+
+.feed-bottom-row>p{
+    font-size: 1.2rem;
+}

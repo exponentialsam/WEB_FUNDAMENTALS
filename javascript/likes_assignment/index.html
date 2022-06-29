@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Network</h1>
+    </div>
+    <h2>Your Feed</h2>
+    <div id="main">
+        <div id="col-left">
+            <img src="./ironcat.jpg" alt="">
+            <p><a href="#">Add on avatar</a></p>
+            <h3>James Doe</h3>
+        </div>
+        <div id="col-right">
+            <div class="feed-list">
+                <div class="feed-top-row">
+                    <div class="name-section">
+                        <h4>Neil M</h4>
+                    </div>
+                    <div class="like-section">
+                        <p><span id="like1-count">9</span> like(s)</p>
+                        <button onclick="incrementLike('#like1-count')">Like</button>
+                    </div>
+                </div>
+                <div class="feed-bottom-row">
+                    <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                </div>
+            </div>
+            <div class="feed-list">
+                <div class="feed-top-row">
+                    <div class="name-section">
+                        <h4>Nichole K</h4>
+                    </div>
+                    <div class="like-section">
+                        <p><span id="like2-count">12</span> like(s)</p>
+                        <button onclick="incrementLike('#like2-count')">Like</button>
+                    </div>
+                </div>
+                <div class="feed-bottom-row">
+                    <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                </div>
+            </div>
+            <div class="feed-list">
+                <div class="feed-top-row">
+                    <div class="name-section">
+                        <h4>Jim R</h4>
+                    </div>
+                    <div class="like-section">
+                        <p><span id="like3-count">9</span> like(s)</p>
+                        <button onclick="incrementLike('#like3-count')">Like</button>
+                    </div>
+                </div>
+                <div class="feed-bottom-row">
+                    <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
