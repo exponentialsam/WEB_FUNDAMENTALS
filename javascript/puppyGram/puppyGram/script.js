@@ -39,3 +39,10 @@ function incrementLike(id){
     likeCount+=1;
     element.innerText = likeCount;
 }
+
+function alertMessageFromInput(){
+    console.log("connected");
+    let searchinput = document.querySelector("Search");
+    alert("You searched for" + searchInput.value);
+
+}
