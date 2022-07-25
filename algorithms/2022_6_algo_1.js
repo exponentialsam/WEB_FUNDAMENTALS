@@ -20,7 +20,7 @@ var isTeachingToday = true;
 
 console.log("Wazaaaaaaa" + name);
 
-chipotlePrice += 1:
+chipotlePrice += 1;
 
 console.log(chipotlePrice);
 
